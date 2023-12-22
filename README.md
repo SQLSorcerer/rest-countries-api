@@ -1,46 +1,79 @@
-# Getting Started with Create React App
+# Country Info App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An application for accessing information about countries. Inspired by [restcountries.eu](https://restcountries.eu/) by Fayder Florez.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Tech Stack](#tech-stack)
+- [About This Project](#about-this-project)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This application allows users to retrieve information about countries, including details such as name, currency, and region. It serves as an open-source alternative to [restcountries.eu](https://restcountries.eu/) with a focus on providing free and accessible country-related data.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+### Frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: JavaScript library for building user interfaces.
+- **Redux**: State management library for React applications.
+- **React Router**: Declarative routing for React.js.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
 
-### `npm run build`
+### Backend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Node.js**: JavaScript runtime for server-side development.
+- **Express.js**: Web application framework for Node.js.
+- **Redux Thunk**: Middleware for handling asynchronous actions in Redux.
+- **Axios**: Promise-based HTTP client for making requests to external APIs.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Styling
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Tailwind CSS**: A utility-first CSS framework.
 
-### `npm run eject`
+### Testing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Jest**: JavaScript testing framework.
+- **React Testing Library**: Testing utilities for React components.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Build Tools
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Webpack**: Module bundler for JavaScript applications.
+- **Babel**: JavaScript compiler for backward compatibility.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Package Management
 
-## Learn More
+- **npm**: Package manager for JavaScript.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **[Deployment platform, e.g., Heroku, Netlify]**
+
+## About This Project
+
+This project is inspired by [restcountries.eu](https://restcountries.eu/) created by Fayder Florez. While the original project has transitioned to a subscription-based API, this project remains Open Source and Free to use. Our aim is to provide a free and accessible alternative for developers who want to access country-related information without the constraints of a paid API.
+
+Feel free to contribute, report issues, or use this project in your applications. It's our way of giving back to the developer community.
+
+## Installation
+
+Include instructions on how to install and set up your project locally.
+
+## Usage
+
+Provide information on how to use your application. Include any necessary configuration details.
+
+## Contributing
+
+Explain how others can contribute to your project. Include guidelines for reporting issues and submitting pull requests.
+
+## License
+
+Specify the license under which your project is distributed. For example, you can use the MIT License:
+
+[MIT License](LICENSE)
